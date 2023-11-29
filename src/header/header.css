@@ -1,0 +1,772 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header__top__container {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 130px 0px 10px 0;
+}
+.header__left__info {
+  color: black;
+}
+
+.wrapper__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+#main__container {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+#covid__care,
+#project,
+#number,
+#gmail {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+#covid__care:hover,
+#project:hover,
+#number:hover,
+#gmail:hover {
+  color: #2582eb;
+  
+}
+#fb {
+  padding: 0 10px;
+}
+/* navgation-bar */
+.header__container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  color: white;
+}
+.navgation__container {
+  display: flex;
+  column-gap: 20px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.slider__container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.slider {
+  width: 1349px;
+  height: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slides {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+.slides input {
+  display: none;
+}
+.slide {
+  width: 20%;
+  transition: 5s;
+}
+.slide img {
+  width: 1349px;
+  height: 600px;
+}
+
+.navigation-manual {
+  position: absolute;
+  width: 1349px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+.manual__btn {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.manual__btn:not(:last-child) {
+  margin-right: 40px;
+}
+.manual__btn:hover {
+  background-color: black;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+#radio5:checked ~ .first {
+  margin-left: -80%;
+}
+#radio6:checked ~ .first {
+  margin-left: -100%;
+}
+#radio7:checked ~ .first {
+  margin-left: -120%;
+}
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 460px;
+}
+.navigation-auto div {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: white;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: white;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: white;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+  background: white;
+}
+#radio6:checked ~ .navigation-auto .auto-btn6 {
+  background: white;
+}
+#radio7:checked ~ .navigation-auto .auto-btn7 {
+  background: white;
+}
+
+/* Our-Container */
+
+.Our__container {
+  position: absolute;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0px 16px 35px 0px rgba(0, 0, 0, 0.2);
+}
+#motto,
+#mission,
+#vision {
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 26px;
+  color: #59606a;
+}
+#fire,
+#eye,
+#target {
+  width: 40px;
+  height: 40px;
+  color: #2582eb;
+  margin: 0 auto;
+}
+.split__our___container {
+  display: flex;
+  padding: 15px;
+}
+.our__motto,
+.our__vision,
+.our__mission {
+  width: 33.33%;
+  padding: 49px 60px 50px;
+  letter-spacing: 0.1px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+#motto__h,
+#vision__h,
+#target__h {
+  font-size: 24px;
+  margin-bottom: 11px;
+}
+
+/* what__lokayurved */
+
+.what__lokayurved {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 500px;
+  display: flex;
+}
+#wellness__italic {
+  padding-top: 10px;
+  display: inline-block;
+  color: #b2b6bb;
+  font-style: italic;
+  text-decoration: none;
+}
+#link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+#about__loka {
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 30px;
+}
+#we__are__inspi {
+  padding-top: 20px;
+}
+.what__loka__img {
+  box-shadow: 0px 16px 35px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* why loka */
+
+.hl {
+  padding: 40px 0;
+}
+
+.why__loka {
+  background-image: url(../assets/images//bg2.jpg);
+  width: 100%;
+}
+.trans__layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.why__loka__contant {
+  padding: 50px 0;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, 0.7) 100%)
+    repeat-x;
+}
+#why__btn {
+  padding: 20px 30px;
+  background-color: #2582eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 40px;
+  border: none;
+  margin: 0 auto;
+}
+.why__loka__align {
+  padding: 40px 0;
+}
+#why__btn:hover {
+  background-color: #59606a;
+}
+
+/* event */
+
+.event__container {
+  display: flex;
+  width: 100%;
+  background-color: #2582eb;
+  color: #292f3b;
+}
+#event {
+  padding: 15px 25px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #292f3b;
+  background-color: #dee6ee;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+#event button {
+  padding: 0;
+}
+.event__topic {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 80%;
+}
+#event:hover {
+  background-color: #2582eb;
+}
+.event__btn {
+  margin-left: 50px;
+}
+/* Our team */
+.Our__team {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#team__img {
+  width: 600px;
+  height: 400px;
+}
+.team__container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.team__contant {
+  padding: 0 10px;
+}
+.team__head {
+  font-size: 50px;
+  padding: 20px 0;
+}
+.team__italic {
+  padding-bottom: 20px;
+  display: inline-block;
+  color: #b2b6bb;
+  font-style: italic;
+  text-decoration: none;
+}
+#team__para {
+  letter-spacing: 0.1px;
+  font-size: 18px;
+  color: #59606a;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+#team__btn {
+  text-decoration: none;
+  padding: 15px 20px;
+  background-color: #2582eb;
+  margin-bottom: 50px;
+  color: white;
+  border-radius: 40px;
+  box-shadow: 0px 16px 35px 0px rgba(0, 0, 0, 0.2);
+}
+#team__btn:hover {
+  background-color: #292f3b;
+}
+/* services__container */
+
+.services__container {
+  display: flex;
+  width: 100%;
+  background-color: #2582eb;
+  color: #292f3b;
+}
+.services__topic {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 80%;
+}
+#services {
+  padding: 15px 25px;
+  background-color: #b2b6bb;
+  margin: 0 20px;
+  text-decoration: none;
+  border-radius: 40px;
+  color: #292f3b;
+  font-weight: 500;
+}
+#services:hover {
+  background-color: #2582eb;
+  color: white;
+  font-weight: 500;
+}
+
+/* program__container */
+.lokayarved__program {
+  background-color: white;
+  margin-bottom: 80px;
+}
+#program__heading {
+  text-align: center;
+  padding: 70px;
+}
+.program__container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+.home__task__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.home__task__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+.prevent__aging,
+.food__plan,
+.knowledge {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.human__container,
+.aging__container,
+.food__container {
+  padding: 15px;
+}
+.hope__aging,
+.yoga,
+.do__plan {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.yoga__container,
+.do__container,
+.hope__container {
+  padding: 15px;
+}
+.health,.wellness,.natrual,.family,.medies,.culture{
+  position: relative;  
+}
+#healthimg,#wellness,#natrual,#family,#medies,#culture{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 0;
+  transition: .5s ease;
+}
+.health:hover .overlay{
+  height: 100%;
+}
+.wellness:hover .overlay{
+  height: 100%;
+}
+.natrual:hover .overlay{
+  height: 100%;
+}
+.family:hover .overlay{
+  height: 100%;
+}
+.medies:hover .overlay{
+  height: 100%;
+}
+.culture:hover .overlay{
+  height: 100%;
+}
+
+
+.h3{
+  width: 100%;
+  margin-top: 30%;
+  font-size: 4vw;
+  position: absolute;
+  text-align: center;
+  color: white;
+  transform: rotate(-5deg)skewX(-5deg);
+}
+
+
+/* attend__container */
+.attend__container {
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/images/bg3.jpg);
+  background-attachment: fixed;
+}
+#attend__head {
+  color: white;
+  margin: 0 auto;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px;
+}
+.attend__plans {
+  width: 80%;
+  margin: 0 auto;
+}
+.plan__fline,
+.plan__sline {
+  display: flex;
+  column-gap: 15px;
+  padding: 10px;
+}
+.attend__blur {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* invite us  */
+.place__container {
+  width: 80%;
+  margin: 0 auto;
+}
+.place__contant {
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+}
+.place__topic {
+  padding: 20px 50px;
+}
+#invite {
+  width: 470px;
+  height: 570px;
+}
+.invite__head {
+  padding: 20px 0;
+}
+.invite__italic {
+  padding-bottom: 20px;
+  display: inline-block;
+  color: #b2b6bb;
+  font-style: italic;
+  text-decoration: none;
+}
+.invite__para {
+  letter-spacing: 0.1px;
+  font-size: 18px;
+  color: #59606a;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+#invite__btn {
+  padding: 15px 25px;
+  background-color: #2582eb;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+}
+#invite__btn:hover {
+  background-color: #292f3b;
+}
+
+/* details */
+
+
+/* .section-work-data{
+  background: var(--grandientSupport);
+  text-align: center;
+  transition: all 0.10s linear;
+  color: var(--black);
+}
+.counter-numbers{
+  font-size: 4.8rem;
+}
+.section-work-data p{
+  color: #2582eb;
+} */
+.details__container {
+  width: 100%;
+  height: 180px;
+  transition: all 0.10s linear;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/images/bg5.jpg);
+  background-attachment: fixed;
+}
+.mount__count,
+.successful__count,
+.pepole__count,
+.seminars__count {
+  color: #2582eb;
+  font-size: 50px;
+  padding: 0 20px 0 0;
+}
+
+.details__detail {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+.month,
+.successful,
+.attend__pepole,
+.successful__seminars {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+/*  */
+.associates{
+  padding: 60px 0;
+}
+.associates__slider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#associates__head{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0 40px 0;
+
+}
+
+
+
+.imgslider{
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  background-size: 100% 100%;
+  animation: associates-img 60s linear infinite;
+}
+
+@keyframes associates-img {
+  0%{
+    background-image: url("../assets/images/slide-2/garbhoupnishad.jpg");
+  }
+  10%{
+    background-image: url("../assets/images/slide-2/gauvigyan1.jpg");
+  }
+  20%{
+    background-image: url("../assets/images/slide-2/girgold.jpg");
+  }
+  30%{
+    background-image: url("../assets/images/slide-2/gs.png");
+  }
+  40%{
+    background-image: url("../assets/images/slide-2/gujarat_tourism.jpg");
+  }
+  50%{
+    background-image: url("../assets/images/slide-2/motel.jpg");
+  }
+  60%{
+    background-image: url("../assets/images/slide-2/redstone-logo.png");
+  }
+  70%{
+    background-image: url("../assets/images/slide-2/shree-bramhi-ayurveda.jpg");
+  }
+  80%{
+    background-image: url("../assets/images/slide-2/shri-kshetra-siddhagiri-mahasansthan.png");
+  }
+  90%{
+    background-image: url("../assets/images/slide-2/the-ancient-ayurveda.png");
+  }
+  100%{
+    background-image: url("../assets/images/slide-2/vedgarbha.jpg");
+  }
+  
+}
+
+/* footer */
+.footer{
+  background-color: #292f3b;
+  padding: 40px 0;
+}
+.footer h6{
+  color: #59606a;
+  font-size: 13px;
+  padding: 0 0 0 10px;
+}
+.footer__container{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+.footer a{
+  text-decoration: none;
+  color: #59606a;
+  padding: 5px 5px;
+}
+.footer__one,.footer__three,.footer__four{
+  width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+.footer__two{
+  width: 600px;
+}
+.footer h2{
+  color: white;
+  padding-bottom: 10px;
+}
+.footer__four{
+  display: flex;
+  padding-top: 40px;
+  
+}
+.contact,.gmail__acc{
+  display: flex;
+}
+.location{
+  display: flex;
+}
+.footer .footer__one h6{
+  padding: 10px 0;
+}
+#t,#l,#e{
+  padding: 10px 0;
+}
+/* copyright */
+
+.copyright{
+  background-color: #11141c;
+    padding: 10px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.copy__right{
+  display: flex;
+  column-gap: 15px;
+
+}
+
